@@ -1,4 +1,3 @@
-wget https://github.com/hellcatz/luckpool/tree/master/miners/hellminer_cpu_linux.tar.gz 
-sudo tar -xf hellminer_cpu_linux.tar.gz
-cd hellminer_cpu_linux.tar.gz
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+sudo tar -xf hellminer_cpu_linux.tar.gz && 
 ./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RHgNMN1oZhUEUKbpA4XLcVD73oVFVdGEwJ.G001 -p x --cpu 1
